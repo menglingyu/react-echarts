@@ -1,0 +1,32 @@
+{
+  "name": "igroot-charts",
+  "version": "1.0.5",
+  "description": "",
+  "main": "lib/index.js",
+  "keywords": [
+    "igroot"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "echarts": "^3.8.5",
+    "igroot": "^0.3.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "^1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "dist": "babel lib -d dist "
+  }
+}
